@@ -1,21 +1,28 @@
 {
-  "name": "insomnia-plugin-randomnumber",
-  "description": "Generate random phone numbers inside the Insomnia REST client",
-  "version": "1.1.0",
+  "name": "insomnia-plugin-randomphone",
+  "version": "1.0.1",
+  "description": "Generate a random phone number for Insomnia REST Client.",
   "main": "randomPhone.js",
+  "dependencies": {},
+  "devDependencies": {},
   "insomnia": {
     "name": "randomPhone",
     "description": "Generate a random phone number"
   },
-  "dependencies": [],
-  "devDependencies": [],
+  "repository": "https://github.com/Mobiusor/insomnia-plugin-randomphone.git",
   "keywords": [
     "insomnia",
     "plugin",
     "plugins",
     "random",
     "rng",
-    "number",
+    "phone",
     "generator"
-  ]
+  ],
+  "author": "mobiusor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mobiusor/insomnia-plugin-randomphone/issues"
+  },
+  "homepage": "https://github.com/Mobiusor/insomnia-plugin-randomphone#readme"
 }
